@@ -1,42 +1,237 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Playfair+Display|Raleway:300,400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <!-- my styles -->
-    <link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Hello, world!</title>
-  </head>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Playfair+Display|Raleway:300,400,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <!-- my styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>AnnaMaria photography</title>
+</head>
 
 
-  <body>
- 
-    <div class="container">
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <div class="hero-text">
+        <div class="logo hero-logo">
+          <p>AnnaMaria</p>
+          <p>photography</p>
+        </div>
+        <h1>See the world through my lens</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>Officiis exercitationem sed ipsa velit esse
+          voluptatum numquam maiores.</p>
+      </div>
+    </header>
+    <!-- // navigation -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-works">works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-social">follow me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-contact">contact me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="row section section-about">
+      <div class="col-sm-12 text-center">
+        <h2 class="section-title">a little bit about me</h2>
+        <div class="center-div">
+          <div></div>
+        </div>
+        <div class="section-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est, autem dolores
+            quidem
+            tenetur, officia
+            exercitationem eius voluptas aperiam laboriosam facilis necessitatibus porro ipsam blanditiis
+            reprehenderit
+            architecto aliquid voluptate commodi.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="section-works" class="row section section-works">
+      <div class="col-sm-12 text-center">
+        <h2 class="section-title">works</h2>
+        <div class="center-div">
+          <div></div>
+        </div>
+      </div>
+
+
+
+      <div class="container gallery">
+        <div class="row row-gallery">
+          <a href="#" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="images/animal.jpg" class="img-fluid">
+            </a>
+          <a href="#" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                <img src="images/bikes.jpg" class="img-fluid">
+              </a>
+          <a href="#" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                  <img src="images/flowers.jpg" class="img-fluid">
+                </a>
+        </div>
+        <div class="row row-gallery">
+          <a href="#" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                <img src="images/people.jpg" class="img-fluid">
+              </a>
+          <a href="#" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                  <img src="images/architecture.jpg" class="img-fluid">
+                </a>
+          <a href="#" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <img src="images/nature.jpg" class="img-fluid">
+                  </a>
+        </div>
+      </div>
+
+
+      <div class="center-div">
+        <button type="button gallery-btn" class="button">load more</button>
+      </div>
+
+      <div class="center-div">
+        <h3 class="section-title testimonial-title">
+          See the world through my lens
+        </h3>
+      </div>
+
+
+      <div class="container">
         <div class="row">
-          <div class="col-sm">
-            One of three columns
-          </div>
-          <div class="col-sm">
-            One of three columns
-          </div>
-          <div class="col-sm">
-            One of three columns
+          <div class="col-md-8 col-center m-auto">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Carousel indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                <div class="item carousel-item active">
+
+                  <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor,
+                    varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac
+                    bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+                  <p class="overview">John Doe CEO at Unknown</p>
+                </div>
+                <div class="item carousel-item">
+
+                  <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi
+                    suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis.
+                    Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                  <p class="overview">Web Developer</p>
+                </div>
+                <div class="item carousel-item">
+
+                  <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam
+                    faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus,
+                    volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+                  <p class="overview">Seo Analyst</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-<!-- 
-    Optional JavaScript --> 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+
+      <div class="container">
+        <div class="works-video">
+          <a href="#"><div>&gt</div></a>
+          <p>watch my video</p>
+        </div>
+      </div>
+
+
+
+
+
+
+    </div>
+
+
+    <div id="section-social" class="row section section-social">
+
+      <div class="col-sm-12 text-center">
+        <h2 class="section-title">follow me</h2>
+        <div class="center-div">
+          <div></div>
+        </div>
+
+        <div class="social-box">
+          <a href=""><i class="fab fa-pinterest-p"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fab fa-tumblr"></i></a>
+          <a href=""><i class="fab fa-google-plus-g"></i></a>
+        </div>
+
+
+      </div>
+
+
+
+
+
+    </div>
+
+    <div id="section-contact" class="row section section-contact"></div>
+
+
+    <footer class="page-footer text-center" style="margin-bottom:0">
+      <div class="logo footer-logo">
+        <p>AnnaMaria</p>
+        <p>photography</p>
+      </div>
+      <p class="copy">© Copyright 2014 MariaAnna</p>
+    </footer>
+
+
+
+
+  </div>
+  <!-- 
+    Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="myscript.js"></script>
+
+</body>
 
 </html>
