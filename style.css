@@ -151,7 +151,7 @@ i:hover {
     font-size: .9rem;
     text-align: center;
     overflow: hidden;
-    min-height: 250px
+    min-height: 300px
 }
 
 .carousel .testimonial {
@@ -227,6 +227,7 @@ form {
 
 form .button {
     margin-bottom: 30px;
+    width: 100px;
 }
 
 .form-control {
