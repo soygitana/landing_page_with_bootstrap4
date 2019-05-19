@@ -1,4 +1,4 @@
-## Fully responsive landing-page with Bootstrap4 
+## Fully responsive landing page with Bootstrap4 
 
 Landing page created with Bootstrap framework, HTML and CSS. 
 Bootstrap practice.
