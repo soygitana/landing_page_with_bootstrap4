@@ -3,7 +3,7 @@
 Simple landing page created with Bootstrap framework, HTML and CSS. 
 Bootstrap practice.
 
-## Technologies used:
+### Technologies used:
 
 * Bootstrap4
 * HTML
