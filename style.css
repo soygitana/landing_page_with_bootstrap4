@@ -14,6 +14,32 @@ body {
     margin-top: 15px;
 }
 
+i {
+    font-size: 1.5rem;
+    color: var(--lightGrey);
+    padding: 5%;
+}
+
+i:hover {
+    color: var(--pink);
+}
+
+.button {
+    margin-top: 5%;
+    text-transform: uppercase;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    background-color: var(--pink);
+    color: var(--white);
+    font-size: .9rem;
+    border: none;
+}
+
+.button:hover {
+    background-color: var(--pinkHover);
+}
+
 .hero {
     background-image: url("images/header.jpg");
     min-height: 500px;
@@ -68,17 +94,6 @@ body {
     margin: 0 auto;
 }
 
-/* .navbar-collapse {
-    margin-top: 10px;
-    width: 100%;
-    min-height: 200px;
-    text-align: center;
-} */
-/* 
-.navbar-collapse .nav-item {
-    width: 100%;
-} */
-
 .section {
     margin-top: 10%;
 }
@@ -125,25 +140,9 @@ body {
     padding: 10px;
 }
 
-.button {
-    margin-top: 5%;
-    text-transform: uppercase;
-    width: 150px;
-    height: 35px;
-    line-height: 35px;
-    background-color: var(--pink);
-    color: var(--white);
-    font-size: .9rem;
-    border: none;
-}
-
 .testimonial-title {
     margin-top: 10%;
     font-size: 1.2rem;
-}
-
-.button:hover {
-    background-color: var(--pinkHover);
 }
 
 .carousel .item {
@@ -208,21 +207,30 @@ body {
     margin-top: 5%;
 }
 
-.social-box i {
-    font-size: 1.5rem;
-    color: var(--lightGrey);
-    padding: 5%;
-}
-
-.social-box i:hover {
-    color: var(--pink);
-}
-
 .section-contact {
     background-image: url("images/contact.jpg");
-    min-height: 500px;
+    min-height: 600px;
     background-size: cover;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-contact .section-title {
+    margin-top: 50px;
+}
+
+form {
+    width: 60%;
+}
+
+form .button {
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-color: var(--pink);
 }
 
 .footer-logo {
@@ -234,8 +242,35 @@ body {
     padding: 0;
 }
 
+.page-footer i {
+    padding: 3%;
+}
+
 .page-footer .copy {
     padding: 30px;
     font-size: 0.8rem;
     opacity: 0.8;
+}
+
+@media (max-width: 415px) and (orientation: portrait) {
+    .navbar-collapse {
+        margin-top: 10px;
+        width: 100%;
+        min-height: 200px;
+        text-align: center;
+    }
+
+    .navbar-collapse .nav-item {
+        width: 100%;
+    }
+
+    .testimonial-title {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 740px) and (orientation: landscape) {
+    .nav-link {
+        font-size: 0.9rem;
+    }
 }
